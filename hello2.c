@@ -2,7 +2,12 @@
 
 // The traditional first program.
 
+void printComma() {
+  printf(", ");
+}
+
 int main() {
-  printf("Hello, world!\n");
-  return 0;
+  printf("Hello");
+  printComma();
+  printf("world!\n");
 }
