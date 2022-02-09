@@ -7,6 +7,11 @@
 void printSizes(void);
 void printRanges(void);
 
+long int add(long int i1, long int i2)
+{
+  return i1 + i2;
+}
+
 int main(void)
 {
   printSizes();
@@ -48,7 +53,7 @@ void printSizes(void)
 void printRanges(void)
 {
   printf("Ranges for integer data types in C\n\n");
-  printf("int8_t   %24d %24d\n", SCHAR_MIN, SCHAR_MAX);
+  printf("int8_t   %24d %24d\n", CHAR_MAX, SCHAR_MAX);
   printf("int16_t  %24d %24d\n", SHRT_MIN, SHRT_MAX);
   printf("int32_t  %24d %24d\n", INT_MIN, INT_MAX);
   printf("int64_t  %24lld %24lld\n", LLONG_MIN, LLONG_MAX);
