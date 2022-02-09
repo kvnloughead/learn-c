@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.svx": "markdown",
+    "*html": "html",
+    "stdio.h": "c"
+  }
+}

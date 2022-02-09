@@ -2,13 +2,11 @@
 
 // Counts newlines in the input file
 
-int main()
-{
+int main() {
   int num_lines = 0;
   int c = getchar();
 
-  while (c != EOF)
-  {
+  while (c != EOF) {
     if (c == '\n')
       ++num_lines;
     c = getchar();
