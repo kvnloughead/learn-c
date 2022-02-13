@@ -2,6 +2,7 @@
   "files.associations": {
     "*.svx": "markdown",
     "*html": "html",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "stdbool.h": "c"
   }
 }
