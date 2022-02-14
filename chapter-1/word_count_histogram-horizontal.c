@@ -18,8 +18,6 @@ int get_max(int arr[], int length) {
   // returns maximal value in array of given length
   int current_max = arr[0];
   for (int i = 1; i <= length; i++) {
-    // printf("arr[i] = %d, curmax = %d\n", arr[i], current_max);
-    // printf("ternary %d\n", arr[i] > current_max ? arr[i] : current_max);
     current_max = arr[i] > current_max ? arr[i] : current_max;
   }
   return current_max;
